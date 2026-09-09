@@ -1,4 +1,4 @@
 interface:
   display_name: "写简历"
   short_description: "查岗位与公司业务，并按用户态度控制简历改写尺度"
-  default_prompt: "先核对岗位与公司业务，再根据我这次的态度判断是保守润色、合理增强还是叙事重构。"
+  default_prompt: "使用 $resume-writing：先核对岗位与公司业务，再根据我的态度控制改写尺度；如需填入 Word 模板，按 skill 规则先定位并复制模板。"
