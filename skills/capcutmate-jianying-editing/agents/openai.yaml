@@ -1,0 +1,6 @@
+interface:
+  display_name: "CapCut-Mate 剪映口播精剪"
+  short_description: "口播精剪、片段衔接、字幕验收与剪映草稿整理"
+  default_prompt: "使用 $capcutmate-jianying-editing 剪辑这个口播视频，重点验收片段收尾、开头留白和可编辑字幕。"
+policy:
+  allow_implicit_invocation: true
